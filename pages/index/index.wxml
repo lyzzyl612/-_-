@@ -1,0 +1,17 @@
+<!--index.wxml-->
+
+<view>
+您的位置：
+</view>
+<view id='myadd'>
+{{useradxq.address}},{{useradxq.formatted_addresses.recommend}}
+</view>
+<view  hidden='{{isShow}}'>
+我从附近<view class='bhh' id='eatcount'>{{eatcount}}</view>个饭馆里决定今天<view class='bhh' id='whatfood'>{{whatfood}}</view>就吃这个啦
+</view>
+<view id='dianwo'  hidden='{{!isShow}}'  bindtap='dianwo'>让我来决定你你到底吃啥！</view>
+<view id='container' hidden='{{isShow}}' bindtap='caidan'>{{container.title}}</view>
+<view class='goodscont'  hidden='{{isShow}}'>电话：{{container.tel}}</view>
+<view class='goodscont'  hidden='{{isShow}}'>详细地址：{{container.address}}</view>
+ <button bindtap='clickme' id='btnclickme' hidden='{{isShow}}'>从地图查看</button>
+ <button></button>

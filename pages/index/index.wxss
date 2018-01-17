@@ -1,0 +1,43 @@
+/**index.wxss**/
+body{
+  margin: 0;
+  padding: 0
+}
+.bhh{
+  display: inline-block
+}
+#eatcount{
+  color: red
+}
+#whatfood{
+  color: red
+}
+#headlogo{
+  margin: 0 auto
+}
+#myadd{
+  background-color:#f66160;
+  color:white
+}
+#container{
+  width: 520rpx;
+  height: 520rpx;
+  text-align: center;
+  line-height: 520rpx;
+  background-color: yellow;
+  margin: 50rpx auto;
+
+}
+.goodscont{
+  background-color: #09b907;
+  color: white
+}
+#dianwo{
+  width: 520rpx;
+  height: 520rpx;
+  text-align: center;
+  line-height: 520rpx;
+  background-color: yellow;
+  margin: 50rpx auto;
+
+}
